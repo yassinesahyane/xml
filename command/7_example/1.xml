@@ -1,0 +1,332 @@
+	<?xml version="1.0" encoding="UTF-8"?>
+<CSRP_ENVELOPPE xmlns="urn:x-csrp:fr.csrp.protocole:enveloppe" Version_Protocole="1.0.0.0"
+    Nature_Action="REQ_EMISSION" Id_Logiciel="ML-CONNECT ALLIANCE+" Version_Logiciel="2.39.0"
+    Usage="P">
+    <ENTETE>
+        <EMETTEUR Nature="OF" Code="00" Id="9999998" Adresse="adresse de test" />
+        <RECEPTEUR Nature="RE" Code="53" Id="Nepenthes"
+            Adresse="Fax 05 57 35 66 60 17000 LA ROCHELLE" />
+        <REF_MESSAGE>20220718122919700H4K</REF_MESSAGE>
+        <DATE>2022-07-18T12:29:19</DATE>
+    </ENTETE>
+    <CORPS>
+        <MESSAGE_OFFICINE xmlns="urn:x-csrp:fr.csrp.protocole:message">
+            <ENTETE>
+                <EMETTEUR Nature_Partenaire="OF" Id_Client="9999998" />
+                <DESTINATAIRE Nature_Partenaire="RE" Code_Societe="53" Id_Societe="Nepenthes" />
+                <DATE>2022-07-18T12:29:19</DATE>
+            </ENTETE>
+            <CORPS>
+                <COMMANDE Ref_Cde_Client="00902500056150020OCP">
+                    <NORMALE>
+                        <LIGNE_N Num_Ligne="1" Quantite="4" Type_Codification="EAN13"
+                            Code_Produit="3400930396988" Designation="FERROSTRANE SP 125ML"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="2" Quantite="6" Type_Codification="EAN13"
+                            Code_Produit="3400932340750" Designation="URSOLVAN GELUL 200MG 30"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="3" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400932460496" Designation="VOLTARENE-LP CPR 100MG 15"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="4" Quantite="5" Type_Codification="EAN13"
+                            Code_Produit="3400932644551" Designation="XANAX CPR 0,50MG SECABL 30"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="5" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400932722594" Designation="TANGANIL AMP IV 500MG 5ML 5"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="6" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3400932849666" Designation="CYCLO-3 CR TUB 100G"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="7" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400934147364"
+                            Designation="LAMICTAL 200MG CPR DISPERSIBLE 30" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="8" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3400934263729"
+                            Designation="VERAPAMIL LP 240MG BIOGAR GELULE30" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="9" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400934775246"
+                            Designation="AETOXISCLEROL AMP TAMP 0.5% 2ML" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="10" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400934775475"
+                            Designation="AETOXISCLEROL AMP IV 2P100 2ML5" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="11" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3400934830167" Designation="POLYSILANE UPSA GEL TUB 170G"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="12" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400935177322" Designation="ZITHROMAX GELUL 250MG 6"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="13" Quantite="4" Type_Codification="EAN13"
+                            Code_Produit="3400935584878" Designation="INIPOMP CPR 40MG 28"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="14" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3400936080386" Designation="GADOVIST 1MMOL/ML SER 15ML 1"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="15" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3400936659582" Designation="COVERSYL 5MG CPR SECABLE 30"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="16" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400937182645"
+                            Designation="MELOXICAM 15MG WINTHROP CPR SEC 14" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="17" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400937712354"
+                            Designation="AMLODIPINE 10MG WINTHROP GELULE 90" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="18" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3400938473759"
+                            Designation="TRANDOLAPRIL 4MG MYLAN GELULE 28" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="19" Quantite="4" Type_Codification="EAN13"
+                            Code_Produit="3400938860337"
+                            Designation="KETOCONAZOLE 2% MYL GEL SACHET 8" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="20" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3401343582470"
+                            Designation="CRINEX PHB MICRO 6 (INTERPROX)" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="21" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3401343583071"
+                            Designation="CRINEX PHB + MICRO GF BROSS 12" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="22" Quantite="5" Type_Codification="EAN13"
+                            Code_Produit="3401343583132" Designation="CRINEX PHB + MINI GF BROSS 12"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="23" Quantite="6" Type_Codification="EAN13"
+                            Code_Produit="8888650404063" Designation="BAUME DU TIGRE ROUGE POT 19G"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="24" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3401048640222" Designation="SYNVISC-ONE SER 1"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="25" Quantite="4" Type_Codification="EAN13"
+                            Code_Produit="3401595562596"
+                            Designation="CHLORHEXIDINE SOL 0,5P100 100ML" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="26" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400939131320" Designation="LEVOFREE 0,05% COL UNIDOSE 30"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="27" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3504105020613" Designation="HYALUGEL SPRAY FLACON 20ML"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="28" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3337872412615"
+                            Designation="HYDRAPHASE INTENSE UV LEGER50ML" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="29" Quantite="12" Type_Codification="EAN13"
+                            Code_Produit="3401048324184" Designation="SURETEST TEST GROSSESSE 1"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="30" Quantite="3" Type_Codification="EAN13"
+                            Code_Produit="3401597220029" Designation="OROPOLIS SPRAY BUCCAL 20ML"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="31" Quantite="3" Type_Codification="EAN13"
+                            Code_Produit="0000030089372"
+                            Designation="ANTHELIOS 50+ STICK LEVRE 4,7ML" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="32" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400936281769" Designation="FLUCONAZOLE 50MG WTP GELULE 7"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="33" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3400938524949"
+                            Designation="METOPROLOL 100MG RANBAXY CPR SEC30" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="34" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3337872413650"
+                            Designation="HYDREANE BB CREME TEINTE ROSE 40ML" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="35" Quantite="4" Type_Codification="EAN13"
+                            Code_Produit="3401551848610"
+                            Designation="URGO VERRUE MAINS/PIEDS CRYO 38ML" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="36" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400921661538"
+                            Designation="DESOGESTREL 75MCG MYLAN CPR 3X28" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="37" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3337872413629" Designation="NUTRITIC INTENSE TUBE 50ML"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="38" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400938709834"
+                            Designation="TERBINAFINE 1% MYLAN CR TUB 15G" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="39" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3400922214610"
+                            Designation="MONOKETO GE 0,25MG COLLY DOS60" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="40" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400949952670"
+                            Designation="QUINOFREE 1,5MG/0,5ML COL UNID 20" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="41" Quantite="4" Type_Codification="EAN13"
+                            Code_Produit="3401563557500" Designation="URGO CICATR RAPID PANS DOIGT"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="42" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3282779368612"
+                            Designation="KERACNYL PP APAISANT A/IMPERF 30ML" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="43" Quantite="11" Type_Codification="EAN13"
+                            Code_Produit="3401051570028"
+                            Designation="POUXIT XF LOTION ANTI-POUX200ML" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="44" Quantite="16" Type_Codification="EAN13"
+                            Code_Produit="4052199014111" Designation="MEDISET SET PANS STANDARD 5"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="45" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3400927400209" Designation="TANGANIL GE 500MG CPR 30"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="46" Quantite="13" Type_Codification="EAN13"
+                            Code_Produit="3337872412141"
+                            Designation="R-POSAY DEO PHYSIO24H AERO150ML" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="47" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="4052199210018"
+                            Designation="C/CHANG CONFIANC MOBIL 6G M 14" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="48" Quantite="4" Type_Codification="EAN13"
+                            Code_Produit="3433425003979"
+                            Designation="R-POSAY DEO PHYSIO24H BILLE50ML X2" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="49" Quantite="6" Type_Codification="EAN13"
+                            Code_Produit="3401596852061"
+                            Designation="CHLORHEXID SOL0.5P100 COOPDOS12" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="50" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400927406980" Designation="OPTIMIZETTE GE 75MCG CPR 3X28"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="51" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400935528988" Designation="IBUFETUM 5% GEL 60G"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="52" Quantite="8" Type_Codification="EAN13"
+                            Code_Produit="4052199220765" Designation="CONFIANCE PROT/SLIP 1G /28"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="53" Quantite="5" Type_Codification="EAN13"
+                            Code_Produit="3401560415896" Designation="URGO ULTRA PROTECTEUR PANS 20"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="54" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="8712400748124" Designation="PROTIFAR PROD DIET PDR 500G"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="55" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400927499890" Designation="AUBAGIO 14MG CPR 28"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="56" Quantite="10" Type_Codification="EAN13"
+                            Code_Produit="3400926615857"
+                            Designation="LOPERAMIDE 2MG MYL PH GELULE 12" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="57" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3400949926367" Designation="IBUPROFENE 400MG TEVA CPR 30"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="58" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3337872419522"
+                            Designation="RPO TOLERIANE ULTRA CONTOUR YX 20" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="59" Quantite="5" Type_Codification="EAN13"
+                            Code_Produit="3400930002209"
+                            Designation="FUROSEMIDE 500MG ZTV CPR SEC 30" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="60" Quantite="4" Type_Codification="EAN13"
+                            Code_Produit="3400927812897" Designation="EBASTINE 10MG ZENTIVA CPR 30"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="61" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3401599197107" Designation="OMEGABIANE EPA HLE CAPS 80"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="62" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3282770072914"
+                            Designation="AVENE-SOL LAIT REPAR AP/SOL 200ML" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="63" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3400930023815"
+                            Designation="PREGABALINE 100MG ZENTIVA GEL 84" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="64" Quantite="7" Type_Codification="EAN13"
+                            Code_Produit="3401360090880"
+                            Designation="URGO VERRUE PERSISTANTE STYLO1,5ML" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="65" Quantite="6" Type_Codification="EAN13"
+                            Code_Produit="3401560031355" Designation="VITASCORBOLBOOST CPR EFF 20"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="66" Quantite="6" Type_Codification="EAN13"
+                            Code_Produit="3401564525942"
+                            Designation="SORBACT PANS HYDROG 7,5X7,5CM10" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="67" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400921906608" Designation="CHOLURSO 500MG CPR SEC 60"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="68" Quantite="3" Type_Codification="EAN13"
+                            Code_Produit="3400930065303"
+                            Designation="IBUPROFENE 400MG ZENTIVA CPR 30" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="69" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3282770073140" Designation="AVENE SOIN LEV PS STICK 4G"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="70" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400935877383"
+                            Designation="TRIMEBUTINE 100MG MYL CONS CPR 20" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="71" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3400927926372"
+                            Designation="ESCITALOPRAM 20MG ZTV CPR SEC 28" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="72" Quantite="3" Type_Codification="EAN13"
+                            Code_Produit="3770008103009"
+                            Designation="APIVITA SPORT CR A/FROTT 100ML" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="73" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400930059562" Designation="ROZEX 0,75% CR TUB 50G"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="74" Quantite="4" Type_Codification="EAN13"
+                            Code_Produit="3401060329754" Designation="THERMACARE PATCH CHAUFF DOS 2"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="75" Quantite="5" Type_Codification="EAN13"
+                            Code_Produit="3401560504828" Designation="LACTIBIANE REFERENCE GELUL 30"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="76" Quantite="6" Type_Codification="EAN13"
+                            Code_Produit="3401560504996" Designation="LACTIBIANE TOLERANCE GELUL 30"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="77" Quantite="5" Type_Codification="EAN13"
+                            Code_Produit="4052199014753" Designation="VALACLEAN GANTS PAQUET 50"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="78" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3600040242186" Designation="S/FOL PORG FOLYSIL HA61 H N16"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="79" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3401573823299" Designation="VITADIL GELUL 60"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="80" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="5701780820615"
+                            Designation="CONVEEN P/URIN VID 2L 21346 30" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="81" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3401579003565" Designation="BIOFREEZE GEL DERMIQ TUB 110G"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="82" Quantite="2" Type_Codification="EAN13"
+                            Code_Produit="3337872411991"
+                            Designation="RPO EFFACLAR GEL MOUSSANT 400ML" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="83" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400958462917" Designation="CODOLIPRANE 500/30MG CPR 100"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="84" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400936158832" Designation="DAFALGAN 1G BOITE 8 COMPRIMES"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="85" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400934821523"
+                            Designation="EFFERALGAN ODIS 16COMP ORODISPERS" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="86" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3595890248276"
+                            Designation="CLEMENT HABITAT SPRAY FOGGER200" Partielle="true"
+                            Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="87" Quantite="1" Type_Codification="EAN13"
+                            Code_Produit="3400937199216" Designation="TAHOR 10MG CPR 90"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                        <LIGNE_N Num_Ligne="88" Quantite="3" Type_Codification="EAN13"
+                            Code_Produit="3401051049166" Designation="CONTOUR NEXT BANDELETTE 50"
+                            Partielle="true" Reliquat="false" Equivalent="false" />
+                    </NORMALE>
+                </COMMANDE>
+            </CORPS>
+        </MESSAGE_OFFICINE>
+    </CORPS>
+</CSRP_ENVELOPPE>

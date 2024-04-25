@@ -1,0 +1,187 @@
+	<?xml version="1.0" encoding="UTF-8"?>
+<CSRP_ENVELOPPE xmlns="urn:x-csrp:fr.csrp.protocole:enveloppe" Nature_Action="REP_EMISSION"
+    Version_Protocole="1.0.0.0" Id_Logiciel="SERVEUR_PHARMAML10" Version_Logiciel="1.0.0.0"
+    Usage="P">
+    <ENTETE>
+        <EMETTEUR Nature="RE" Code="10" Id="01" Adresse=" 79000 NIORT" />
+        <RECEPTEUR Nature="OF" Code="00" Id="4833004" Adresse="adresse de test" />
+        <REF_MESSAGE>0110:0:l5qrfndo:1</REF_MESSAGE>
+        <EN_REPONSE_A>20220718150545057UKm</EN_REPONSE_A>
+        <DATE>2022-07-18T15:05:58</DATE>
+    </ENTETE>
+    <CORPS>
+        <MESSAGE_REPARTITEUR xmlns="urn:x-csrp:fr.csrp.protocole:message">
+            <ENTETE>
+                <EMETTEUR Code_Societe="10" Id_Societe="01" />
+                <DESTINATAIRE Id_Client="4833004" />
+                <DATE>2022-07-18T15:05:45</DATE>
+            </ENTETE>
+            <CORPS>
+                <REP_COMMANDE Ref_Cde_Client="0090250005672004BOIR" Devise="EUR">
+                    <INFOS_LIVRAISON>
+                        <LIVREUR Societe="CERP REPARTITION"
+                            Etablissement="Agence ST BRIEUC Repartition" />
+                        <TOURNEE Reference="B1345" Date="2022-07-19" />
+                    </INFOS_LIVRAISON>
+                    <NORMALE>
+                        <LIGNE_N Num_Ligne="1" Num_Ligne_Commande="1" Type_Codification="EAN13"
+                            Code_Produit="3400300118127" Designation="ACONITUM NAPEL. 5CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="2" Num_Ligne_Commande="2" Type_Codification="EAN13"
+                            Code_Produit="3400300608161" Designation="ANTIMONIUM TART. 9CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="3" Num_Ligne_Commande="3" Type_Codification="EAN13"
+                            Code_Produit="3400300768148" Designation="ARSENICUM ALBUM. 7CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="4" Num_Ligne_Commande="4" Type_Codification="EAN13"
+                            Code_Produit="3400301938120" Designation="CHAMOMILLA VULG. 5CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="5" Num_Ligne_Commande="5" Type_Codification="EAN13"
+                            Code_Produit="3400302218122" Designation="COCCULUS INDICUS 5CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="6" Num_Ligne_Commande="6" Type_Codification="EAN13"
+                            Code_Produit="3400302948128" Designation="EUPATOR.PERFOLIA 5CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="7" Num_Ligne_Commande="7" Type_Codification="EAN13"
+                            Code_Produit="3400303908121" Designation="IPECA 5CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="8" Num_Ligne_Commande="8" Type_Codification="EAN13"
+                            Code_Produit="3400304077932"
+                            Designation="KALIUM PHOSPHOR. 15CH TUB GRAN" Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="9" Num_Ligne_Commande="9" Type_Codification="EAN13"
+                            Code_Produit="3400304808123" Designation="MERCURIUS CYANAT 5CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="0.000" />
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit Inconnu" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="10" Num_Ligne_Commande="10" Type_Codification="EAN13"
+                            Code_Produit="3400304838120" Designation="MERCUR(SOLUBILIS 5CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="11" Num_Ligne_Commande="11" Type_Codification="EAN13"
+                            Code_Produit="3400305697931" Designation="PHOSPHORUS 15CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="12" Num_Ligne_Commande="12" Type_Codification="EAN13"
+                            Code_Produit="3400305868126" Designation="PLUMBUM METALLIC 5CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="13" Num_Ligne_Commande="13" Type_Codification="EAN13"
+                            Code_Produit="3400305888100"
+                            Designation="POLLEN(POLLANTIN 30CH TUB GRAN" Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="14" Num_Ligne_Commande="14" Type_Codification="EAN13"
+                            Code_Produit="3400307128129" Designation="SULFUR 5CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="15" Num_Ligne_Commande="15" Type_Codification="EAN13"
+                            Code_Produit="3400309018169" Designation="AVIAIRE 9CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="16" Num_Ligne_Commande="16" Type_Codification="EAN13"
+                            Code_Produit="3400309048166" Designation="DIPHTEROTOXINUM 9CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="0.000" />
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit Inconnu" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="17" Num_Ligne_Commande="17" Type_Codification="EAN13"
+                            Code_Produit="3400300728128" Designation="ARGENTUM NITRIC. 5CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="18" Num_Ligne_Commande="18" Type_Codification="EAN13"
+                            Code_Produit="3400302278126" Designation="COLOCYNTHIS 5CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="19" Num_Ligne_Commande="19" Type_Codification="EAN13"
+                            Code_Produit="3400303938128" Designation="IRIS VERSICOLOR 5CH TUB GRAN"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="2.820" />
+                            <PRIX_N Nature="NETHT" Valeur="2.820" />
+                            <INDISPONIBILITE_N Code_Reponse="0002"
+                                Additif="Pas en Stock = Ne tenons pas" />
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="20" Num_Ligne_Commande="20" Type_Codification="EAN13"
+                            Code_Produit="3400930065266" Designation="IBUPROFENE 400MG ZTV CONS 10"
+                            Quantite_livree="0">
+                            <PRIX_N Nature="PHAHT" Valeur="1.200" />
+                            <PRIX_N Nature="NETHT" Valeur="0.780" />
+                            <INDISPONIBILITE_N Code_Reponse="0004" Additif="Manque Fabriquant" />
+                        </LIGNE_N>
+                    </NORMALE>
+                </REP_COMMANDE>
+            </CORPS>
+        </MESSAGE_REPARTITEUR>
+    </CORPS>
+</CSRP_ENVELOPPE>

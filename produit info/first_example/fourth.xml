@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSRP_ENVELOPPE xmlns="urn:x-csrp:fr.csrp.protocole:enveloppe" Nature_Action="REP_EMISSION" Version_Protocole="1.0.0.0"
+                Id_Logiciel="ML-CONNECT ALLIANCE+" Usage="P" Version_Logiciel="3.7.1">
+    <ENTETE>
+        <EMETTEUR Nature="RE" Adresse="Fax 05 57 35 66 60 17000 LA ROCHELLE" Code="53" Id="Nepenthes"/>
+        <RECEPTEUR Nature="OF" Id="9999998" Adresse="adresse de test"/>
+        <REF_MESSAGE>FNSE38EDBC878278C88F</REF_MESSAGE>
+        <EN_REPONSE_A>20240412112656003ty0</EN_REPONSE_A>
+    </ENTETE>
+    <CORPS>
+        <ACTION>FIN_SERVICE</ACTION>
+    </CORPS>
+</CSRP_ENVELOPPE>

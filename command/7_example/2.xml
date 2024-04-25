@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSRP_ENVELOPPE xmlns="urn:x-csrp:fr.csrp.protocole:enveloppe" Nature_Action="REP_EMISSION"
+    Version_Protocole="1.0.0.0" Id_Logiciel="ML-CONNECT ALLIANCE+" Usage="P"
+    Version_Logiciel="2.39.0">
+    <ENTETE>
+        <EMETTEUR Nature="RE" Adresse="13 avenue Paul Langevin - 95220 HERBLAY" Code="53"
+            Id="Nepenthes" />
+        <RECEPTEUR Nature="OF" Id="9999998" Adresse="adresse de test" />
+        <REF_MESSAGE>RCD02500056150020OCP</REF_MESSAGE>
+        <EN_REPONSE_A>20220718122919700H4K</EN_REPONSE_A>
+        <DATE>2022-07-18T18:41:28</DATE>
+    </ENTETE>
+    <CORPS>
+        <MESSAGE_REPARTITEUR xmlns="urn:x-csrp:fr.csrp.protocole:message">
+            <ENTETE>
+                <EMETTEUR Nature_Partenaire="RE" Code_Societe="53" Id_Societe="Nepenthes" />
+                <DESTINATAIRE Nature_Partenaire="OF" Id_Client="9999998" />
+                <DATE>2022-07-18T18:41:28</DATE>
+            </ENTETE>
+            <CORPS>
+                <REP_COMMANDE Ref_Cde_Client="00902500056150020OCP">
+                    <NORMALE>
+                        <LIGNE_N Num_Ligne="1" Num_Ligne_Commande="1" Type_Codification="EAN13"
+                            Code_Produit="3400930396988" Designation="FERROSTRANE SP 125ML"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="2" Num_Ligne_Commande="2" Type_Codification="EAN13"
+                            Code_Produit="3400932340750" Designation="URSOLVAN GELUL 200MG 30"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="3" Num_Ligne_Commande="3" Type_Codification="EAN13"
+                            Code_Produit="3400932460496" Designation="VOLTARENE-LP CPR 100MG 15"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="4" Num_Ligne_Commande="4" Type_Codification="EAN13"
+                            Code_Produit="3400932644551" Designation="XANAX CPR 0,50MG SECABL 30"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="5" Num_Ligne_Commande="5" Type_Codification="EAN13"
+                            Code_Produit="3400932722594" Designation="TANGANIL AMP IV 500MG 5ML 5"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="6" Num_Ligne_Commande="6" Quantite_livree="2"
+                            Type_Codification="EAN13" Code_Produit="3400932849666"
+                            Designation="CYCLO-3 CR TUB 100G"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="7" Num_Ligne_Commande="7" Type_Codification="EAN13"
+                            Code_Produit="3400934147364"
+                            Designation="LAMICTAL 200MG CPR DISPERSIBLE 30" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="8" Num_Ligne_Commande="8" Type_Codification="EAN13"
+                            Code_Produit="3400934263729"
+                            Designation="VERAPAMIL LP 240MG BIOGAR GELULE30" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="9" Num_Ligne_Commande="9" Type_Codification="EAN13"
+                            Code_Produit="3400934775246"
+                            Designation="AETOXISCLEROL AMP TAMP 0.5% 2ML" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="10" Num_Ligne_Commande="10" Type_Codification="EAN13"
+                            Code_Produit="3400934775475"
+                            Designation="AETOXISCLEROL AMP IV 2P100 2ML5" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="11" Num_Ligne_Commande="11" Quantite_livree="2"
+                            Type_Codification="EAN13" Code_Produit="3400934830167"
+                            Designation="POLYSILANE UPSA GEL TUB 170G"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="12" Num_Ligne_Commande="12" Type_Codification="EAN13"
+                            Code_Produit="3400935177322" Designation="ZITHROMAX GELUL 250MG 6"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="13" Num_Ligne_Commande="13" Type_Codification="EAN13"
+                            Code_Produit="3400935584878" Designation="INIPOMP CPR 40MG 28"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="14" Num_Ligne_Commande="14" Type_Codification="EAN13"
+                            Code_Produit="3400936080386" Designation="GADOVIST 1MMOL/ML SER 15ML 1"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="15" Num_Ligne_Commande="15" Type_Codification="EAN13"
+                            Code_Produit="3400936659582" Designation="COVERSYL 5MG CPR SECABLE 30"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="16" Num_Ligne_Commande="16" Type_Codification="EAN13"
+                            Code_Produit="3400937182645"
+                            Designation="MELOXICAM 15MG WINTHROP CPR SEC 14" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="17" Num_Ligne_Commande="17" Type_Codification="EAN13"
+                            Code_Produit="3400937712354"
+                            Designation="AMLODIPINE 10MG WINTHROP GELULE 90" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="18" Num_Ligne_Commande="18" Type_Codification="EAN13"
+                            Code_Produit="3400938473759"
+                            Designation="TRANDOLAPRIL 4MG MYLAN GELULE 28" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="19" Num_Ligne_Commande="19" Type_Codification="EAN13"
+                            Code_Produit="3400938860337"
+                            Designation="KETOCONAZOLE 2% MYL GEL SACHET 8" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="20" Num_Ligne_Commande="20" Type_Codification="EAN13"
+                            Code_Produit="3401343582470"
+                            Designation="CRINEX PHB MICRO 6 (INTERPROX)" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="21" Num_Ligne_Commande="21" Type_Codification="EAN13"
+                            Code_Produit="3401343583071"
+                            Designation="CRINEX PHB + MICRO GF BROSS 12" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="22" Num_Ligne_Commande="22" Type_Codification="EAN13"
+                            Code_Produit="3401343583132" Designation="CRINEX PHB + MINI GF BROSS 12"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="23" Num_Ligne_Commande="23" Quantite_livree="6"
+                            Type_Codification="EAN13" Code_Produit="8888650404063"
+                            Designation="BAUME DU TIGRE ROUGE POT 19G"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="24" Num_Ligne_Commande="24" Type_Codification="EAN13"
+                            Code_Produit="3401048640222" Designation="SYNVISC-ONE SER 1"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="25" Num_Ligne_Commande="25" Type_Codification="EAN13"
+                            Code_Produit="3401595562596"
+                            Designation="CHLORHEXIDINE SOL 0,5P100 100ML" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="26" Num_Ligne_Commande="26" Type_Codification="EAN13"
+                            Code_Produit="3400939131320" Designation="LEVOFREE 0,05% COL UNIDOSE 30"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="27" Num_Ligne_Commande="27" Quantite_livree="1"
+                            Type_Codification="EAN13" Code_Produit="3504105020613"
+                            Designation="HYALUGEL SPRAY FLACON 20ML"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="28" Num_Ligne_Commande="28" Quantite_livree="2"
+                            Type_Codification="EAN13" Code_Produit="3337872412615"
+                            Designation="HYDRAPHASE INTENSE UV LEGER50ML"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="29" Num_Ligne_Commande="29" Type_Codification="EAN13"
+                            Code_Produit="3401048324184" Designation="SURETEST TEST GROSSESSE 1"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="30" Num_Ligne_Commande="30" Type_Codification="EAN13"
+                            Code_Produit="3401597220029" Designation="OROPOLIS SPRAY BUCCAL 20ML"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="31" Num_Ligne_Commande="31" Quantite_livree="3"
+                            Type_Codification="EAN13" Code_Produit="0000030089372"
+                            Designation="ANTHELIOS 50+ STICK LEVRE 4,7ML"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="32" Num_Ligne_Commande="32" Type_Codification="EAN13"
+                            Code_Produit="3400936281769" Designation="FLUCONAZOLE 50MG WTP GELULE 7"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="33" Num_Ligne_Commande="33" Type_Codification="EAN13"
+                            Code_Produit="3400938524949"
+                            Designation="METOPROLOL 100MG RANBAXY CPR SEC30" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="34" Num_Ligne_Commande="34" Quantite_livree="1"
+                            Type_Codification="EAN13" Code_Produit="3337872413650"
+                            Designation="HYDREANE BB CREME TEINTE ROSE 40ML"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="35" Num_Ligne_Commande="35" Type_Codification="EAN13"
+                            Code_Produit="3401551848610"
+                            Designation="URGO VERRUE MAINS/PIEDS CRYO 38ML" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="36" Num_Ligne_Commande="36" Type_Codification="EAN13"
+                            Code_Produit="3400921661538"
+                            Designation="DESOGESTREL 75MCG MYLAN CPR 3X28" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="37" Num_Ligne_Commande="37" Quantite_livree="1"
+                            Type_Codification="EAN13" Code_Produit="3337872413629"
+                            Designation="NUTRITIC INTENSE TUBE 50ML"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="38" Num_Ligne_Commande="38" Type_Codification="EAN13"
+                            Code_Produit="3400938709834"
+                            Designation="TERBINAFINE 1% MYLAN CR TUB 15G" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="39" Num_Ligne_Commande="39" Type_Codification="EAN13"
+                            Code_Produit="3400922214610"
+                            Designation="MONOKETO GE 0,25MG COLLY DOS60" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="40" Num_Ligne_Commande="40" Type_Codification="EAN13"
+                            Code_Produit="3400949952670"
+                            Designation="QUINOFREE 1,5MG/0,5ML COL UNID 20" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="41" Num_Ligne_Commande="41" Type_Codification="EAN13"
+                            Code_Produit="3401563557500" Designation="URGO CICATR RAPID PANS DOIGT"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="42" Num_Ligne_Commande="42" Type_Codification="EAN13"
+                            Code_Produit="3282779368612"
+                            Designation="KERACNYL PP APAISANT A/IMPERF 30ML" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="43" Num_Ligne_Commande="43" Quantite_livree="11"
+                            Type_Codification="EAN13" Code_Produit="3401051570028"
+                            Designation="POUXIT XF LOTION ANTI-POUX200ML"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="44" Num_Ligne_Commande="44" Type_Codification="EAN13"
+                            Code_Produit="4052199014111" Designation="MEDISET SET PANS STANDARD 5"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="45" Num_Ligne_Commande="45" Type_Codification="EAN13"
+                            Code_Produit="3400927400209" Designation="TANGANIL GE 500MG CPR 30"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="46" Num_Ligne_Commande="46" Quantite_livree="13"
+                            Type_Codification="EAN13" Code_Produit="3337872412141"
+                            Designation="R-POSAY DEO PHYSIO24H AERO150ML"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="47" Num_Ligne_Commande="47" Quantite_livree="2"
+                            Type_Codification="EAN13" Code_Produit="4052199210018"
+                            Designation="C/CHANG CONFIANC MOBIL 6G M 14"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="48" Num_Ligne_Commande="48" Type_Codification="EAN13"
+                            Code_Produit="3433425003979"
+                            Designation="R-POSAY DEO PHYSIO24H BILLE50ML X2" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="49" Num_Ligne_Commande="49" Type_Codification="EAN13"
+                            Code_Produit="3401596852061"
+                            Designation="CHLORHEXID SOL0.5P100 COOPDOS12" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="50" Num_Ligne_Commande="50" Type_Codification="EAN13"
+                            Code_Produit="3400927406980" Designation="OPTIMIZETTE GE 75MCG CPR 3X28"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="51" Num_Ligne_Commande="51" Type_Codification="EAN13"
+                            Code_Produit="3400935528988" Designation="IBUFETUM 5% GEL 60G"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="52" Num_Ligne_Commande="52" Type_Codification="EAN13"
+                            Code_Produit="4052199220765" Designation="CONFIANCE PROT/SLIP 1G /28"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="53" Num_Ligne_Commande="53" Type_Codification="EAN13"
+                            Code_Produit="3401560415896" Designation="URGO ULTRA PROTECTEUR PANS 20"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="54" Num_Ligne_Commande="54" Quantite_livree="1"
+                            Type_Codification="EAN13" Code_Produit="8712400748124"
+                            Designation="PROTIFAR PROD DIET PDR 500G"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="55" Num_Ligne_Commande="55" Type_Codification="EAN13"
+                            Code_Produit="3400927499890" Designation="AUBAGIO 14MG CPR 28"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="56" Num_Ligne_Commande="56" Quantite_livree="10"
+                            Type_Codification="EAN13" Code_Produit="3400926615857"
+                            Designation="LOPERAMIDE 2MG MYL PH GELULE 12"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="57" Num_Ligne_Commande="57" Type_Codification="EAN13"
+                            Code_Produit="3400949926367" Designation="IBUPROFENE 400MG TEVA CPR 30"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="58" Num_Ligne_Commande="58" Type_Codification="EAN13"
+                            Code_Produit="3337872419522"
+                            Designation="RPO TOLERIANE ULTRA CONTOUR YX 20" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="59" Num_Ligne_Commande="59" Type_Codification="EAN13"
+                            Code_Produit="3400930002209"
+                            Designation="FUROSEMIDE 500MG ZTV CPR SEC 30" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="60" Num_Ligne_Commande="60" Type_Codification="EAN13"
+                            Code_Produit="3400927812897" Designation="EBASTINE 10MG ZENTIVA CPR 30"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="61" Num_Ligne_Commande="61" Type_Codification="EAN13"
+                            Code_Produit="3401599197107" Designation="OMEGABIANE EPA HLE CAPS 80"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="62" Num_Ligne_Commande="62" Quantite_livree="1"
+                            Type_Codification="EAN13" Code_Produit="3282770072914"
+                            Designation="AVENE-SOL LAIT REPAR AP/SOL 200ML"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="63" Num_Ligne_Commande="63" Type_Codification="EAN13"
+                            Code_Produit="3400930023815"
+                            Designation="PREGABALINE 100MG ZENTIVA GEL 84" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="64" Num_Ligne_Commande="64" Type_Codification="EAN13"
+                            Code_Produit="3401360090880"
+                            Designation="URGO VERRUE PERSISTANTE STYLO1,5ML" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="65" Num_Ligne_Commande="65" Type_Codification="EAN13"
+                            Code_Produit="3401560031355" Designation="VITASCORBOLBOOST CPR EFF 20"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="66" Num_Ligne_Commande="66" Quantite_livree="6"
+                            Type_Codification="EAN13" Code_Produit="3401564525942"
+                            Designation="SORBACT PANS HYDROG 7,5X7,5CM10"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="67" Num_Ligne_Commande="67" Type_Codification="EAN13"
+                            Code_Produit="3400921906608" Designation="CHOLURSO 500MG CPR SEC 60"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="68" Num_Ligne_Commande="68" Type_Codification="EAN13"
+                            Code_Produit="3400930065303"
+                            Designation="IBUPROFENE 400MG ZENTIVA CPR 30" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="69" Num_Ligne_Commande="69" Type_Codification="EAN13"
+                            Code_Produit="3282770073140" Designation="AVENE SOIN LEV PS STICK 4G"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="70" Num_Ligne_Commande="70" Quantite_livree="1"
+                            Type_Codification="EAN13" Code_Produit="3400935877383"
+                            Designation="TRIMEBUTINE 100MG MYL CONS CPR 20"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="71" Num_Ligne_Commande="71" Type_Codification="EAN13"
+                            Code_Produit="3400927926372"
+                            Designation="ESCITALOPRAM 20MG ZTV CPR SEC 28" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="72" Num_Ligne_Commande="72" Type_Codification="EAN13"
+                            Code_Produit="3770008103009"
+                            Designation="APIVITA SPORT CR A/FROTT 100ML" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="73" Num_Ligne_Commande="73" Type_Codification="EAN13"
+                            Code_Produit="3400930059562" Designation="ROZEX 0,75% CR TUB 50G"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="74" Num_Ligne_Commande="74" Type_Codification="EAN13"
+                            Code_Produit="3401060329754" Designation="THERMACARE PATCH CHAUFF DOS 2"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="75" Num_Ligne_Commande="75" Quantite_livree="5"
+                            Type_Codification="EAN13" Code_Produit="3401560504828"
+                            Designation="LACTIBIANE REFERENCE GELUL 30"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="76" Num_Ligne_Commande="76" Quantite_livree="6"
+                            Type_Codification="EAN13" Code_Produit="3401560504996"
+                            Designation="LACTIBIANE TOLERANCE GELUL 30"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="77" Num_Ligne_Commande="77" Type_Codification="EAN13"
+                            Code_Produit="4052199014753" Designation="VALACLEAN GANTS PAQUET 50"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="78" Num_Ligne_Commande="78" Type_Codification="EAN13"
+                            Code_Produit="3600040242186" Designation="S/FOL PORG FOLYSIL HA61 H N16"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="79" Num_Ligne_Commande="79" Type_Codification="EAN13"
+                            Code_Produit="3401573823299" Designation="VITADIL GELUL 60"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="80" Num_Ligne_Commande="80" Type_Codification="EAN13"
+                            Code_Produit="5701780820615"
+                            Designation="CONVEEN P/URIN VID 2L 21346 30" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="81" Num_Ligne_Commande="81" Type_Codification="EAN13"
+                            Code_Produit="3401579003565" Designation="BIOFREEZE GEL DERMIQ TUB 110G"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="82" Num_Ligne_Commande="82" Quantite_livree="2"
+                            Type_Codification="EAN13" Code_Produit="3337872411991"
+                            Designation="RPO EFFACLAR GEL MOUSSANT 400ML"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="83" Num_Ligne_Commande="83" Type_Codification="EAN13"
+                            Code_Produit="3400958462917" Designation="CODOLIPRANE 500/30MG CPR 100"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="84" Num_Ligne_Commande="84" Type_Codification="EAN13"
+                            Code_Produit="3400936158832" Designation="DAFALGAN 1G BOITE 8 COMPRIMES"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="85" Num_Ligne_Commande="85" Quantite_livree="1"
+                            Type_Codification="EAN13" Code_Produit="3400934821523"
+                            Designation="EFFERALGAN ODIS 16COMP ORODISPERS"></LIGNE_N>
+                        <LIGNE_N Num_Ligne="86" Num_Ligne_Commande="86" Type_Codification="EAN13"
+                            Code_Produit="3595890248276"
+                            Designation="CLEMENT HABITAT SPRAY FOGGER200" Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="87" Num_Ligne_Commande="87" Type_Codification="EAN13"
+                            Code_Produit="3400937199216" Designation="TAHOR 10MG CPR 90"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                        <LIGNE_N Num_Ligne="88" Num_Ligne_Commande="88" Type_Codification="EAN13"
+                            Code_Produit="3401051049166" Designation="CONTOUR NEXT BANDELETTE 50"
+                            Quantite_livree="0">
+                            <INDISPONIBILITE_N Code_Reponse="0001" Additif="Produit inconnu"></INDISPONIBILITE_N>
+                        </LIGNE_N>
+                    </NORMALE>
+                </REP_COMMANDE>
+            </CORPS>
+        </MESSAGE_REPARTITEUR>
+    </CORPS>
+</CSRP_ENVELOPPE>

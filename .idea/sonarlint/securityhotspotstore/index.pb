@@ -1,0 +1,21 @@
+
+A
+command/first.xml,7\0\701fd573803e920f1cbd4fb565e23460fd3321c1
+B
+command/fourth.xml,f\f\ffe4604b69301e6c03269dbe2bdf0aa8cc71a557
+B
+command/second.xml,1\b\1bc13c3ea6b13cca731fcd856d67974ba562d77f
+A
+command/third.xml,4\d\4dbee90c2f683b94b4acd178783b0d03e7d66ce8
+P
+ command/second_example/first.xml,8\a\8ac8e7511bc7a050aed161402589a016fef5b4c7
+P
+ command/second_example/third.xml,a\d\adfc30a093fd3bb9abd450d042d8166525b74369
+Q
+!command/second_example/second.xml,7\b\7bc2d8fdf7ff7bcdf7ef5aa83880ed5c1f9343cd
+Q
+!command/second_example/fourth.xml,f\1\f1ecdff7cb58f958cad5586539f1069a4d711364
+O
+command/first_example/first.xml,c\f\cfbb19a2118d147c1e8b41ef4dca222d74f95cbe
+P
+ command/first_example/second.xml,1\e\1eba9f0a450e54d21d5edf5a9683d9850a8d4ca0
